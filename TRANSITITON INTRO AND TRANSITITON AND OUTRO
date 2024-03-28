@@ -1,0 +1,86 @@
+#TRANSITITON INTRO AND TRANSITITON AND OUTRO
+
+live_loop :humandmore do
+  1.times do
+    sample :ambi_glass_hum
+    sleep 5
+    sample :ambi_piano
+    sleep 2
+    sample :ambi_glass_hum
+    sleep 5
+    sample :ambi_piano
+    sleep 2
+    sample :ambi_swoosh
+    sample :ambi_glass_hum
+    sleep 5
+    sample :ambi_piano
+    sleep 2
+    sample :ambi_glass_hum
+    sleep 5
+    sample :ambi_piano
+    sleep 2
+    sample :ambi_swoosh
+  end
+  stop
+end
+sleep 3
+
+live_loop :haunt do
+  1.times do
+    sample :ambi_haunted_hum
+    sleep 7
+    sample :ambi_haunted_hum
+    sleep 7
+    sample :ambi_haunted_hum
+    sleep 7
+    sample :ambi_haunted_hum
+    sleep 7
+  end
+  stop
+end
+sleep 5
+
+live_loop :woosh do
+  1.times do
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+    sample :ambi_dark_woosh, amp: 3
+    sleep 1
+  end
+  stop
+end
+
